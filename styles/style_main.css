@@ -1,0 +1,27 @@
+html {
+  background-color: #F08B18;
+  font-size: 20px;
+  font-family: 'Droid Sans Mono', ;
+}
+body{
+  background-color: #686868;
+  width: 600px;
+  margin: 0 auto;
+  padding: 60px 60px 60px 60px;
+  box-shadow: 5px 5px 5px  #000000;
+}
+#main_header_title_text{
+  margin: 0;
+  padding: 10px 0;
+  color: #18CCF0;
+
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+p,li{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
