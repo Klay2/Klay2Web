@@ -11,6 +11,7 @@
    <h3 id = "main_header_sub2">Living Human and Apprentice Software Engineer</h3>
    <hr id = "main_header_hr" />
 
+
  </head>
   <body>
 
@@ -28,7 +29,30 @@
         <li>Student Loan 1: <a href=http://www.nelnet.com/home.aspx>Nelnet Loans</a></li>
       </ul>
       <button>Type in something</button>
+      <table>
+        <thead>
+        <tr>
+          <th></th>
+          <th scope="col">Red</th>
+          <th scope ="col">Blue</th>
+          <th scope ="col">Green</th>
+          <th scope ="col">ClicksTotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Clicks: </th>
+          <td id ="red_clicks">0</td>
+          <td id ="blue_clicks">0</td>
+          <td id = "green_clicks">0</td>
+          <td id = "total_clicks">0</td>
+        </tr>
+      </tbody>
+
+      </table>
+      <button id="newDivButton">Make thingy!</button>
       <script src="scripts/main_index.js"></script>
+
   </body>
   <footer>Klaymo24@gmail.com</footer>
 </html>
