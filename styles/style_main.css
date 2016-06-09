@@ -1,27 +1,69 @@
-html {
-  background-color: #F08B18;
-  font-size: 20px;
+html{
+  min-height: 100%;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
   font-family: 'Droid Sans Mono', ;
+  box-sizing: border-box;
 }
-body{
-  background-color: #686868;
-  width: 600px;
-  margin: 0 auto;
-  padding: 60px 60px 60px 60px;
-  box-shadow: 5px 5px 5px  #000000;
+p{
+  width: 70%;
 }
-#main_header_title_text{
-  margin: 0;
-  padding: 10px 0;
-  color: #18CCF0;
+div#header{
+  top: 0;
+  height: 125px;
+  width: 100%;
+  min-width: 600px;
+  font-size: 20px;
+  background-color: #663399;
+  margin: 0, auto;
+  color:#BDC3C7;
+  padding: 15px;
+  position:fixed;
 
 }
-h1{
-  font-size: 60px;
-  text-align: center;
+
+#header_logo{
+  margin: 0 ,auto;
+  font-size: 40px;
+  color: #E4F1FE;
+  padding: 20px;
 }
-p,li{
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+
+#header_nav{
+  top: 125px;
+  position: fixed;
+  padding: 20px;
+  height: 50px;
+  width: 100%;
+  min-width: 700px;
+  background-color: #FFFFFF;
+
+}
+
+#body_container{
+  width: 100%;
+  margin-top: 175px;
+}
+
+#side_panel{
+  width: 200px;
+  height: 100%;
+  color:#BDC3C7;
+  background-color: #00587A;
+  float: left;
+  padding: 25px;
+  position: fixed;
+}
+
+#content{
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  margin-left: 200px;
+  color: #FFFFFF;
+  background-color: #282830;
+  padding: 50px;
 }
