@@ -1,76 +1,63 @@
-html{
-  min-height: 100%;
-}
+
 *{
+  outline: 1px solid red;
   list-style: none;
   text-decoration: none;
   margin: 0;
-  padding: 0;
   font-family: 'Droid Sans Mono', ;
-  box-sizing: border-box;
-}
-p{
-  width: 800px;
-
 
 }
+
 div#header{
-  top: 0;
-  height: 125px;
-  width: 100%;
-  margin-left:0px;
-  min-width: 600px;
+  height: 50px;
+  min-width: 400px;
   font-size: 20px;
   background-color: #663399;
-  margin: 0, auto;
   color:#BDC3C7;
-  padding: 15px;
+  float: top;
   position:fixed;
 
 }
 
 #header_logo{
-  margin: 0 ,auto;
-  font-size: 40px;
+  font-size: 30px;
   color: #E4F1FE;
-  padding: 20px;
 }
 
 #header_nav{
-  top: 125px;
+  top: 51px;
+  float: top;
   position: fixed;
-  margin-left:0;
-  margin-right:0;
-  padding: 20px;
-  height: 50px;
-  width: 100%;
-  min-width: 700px;
+  height: 30px;
+  min-width: 400px;
   background-color: #FFFFFF;
 
 }
 
 #body_container{
-  width: 100%;
-  margin-top: 175px;
+  padding-top: 82px;
 }
 
 #side_panel{
-  width: 200px;
+
+  width: 120px;
   height: 100%;
   color:#BDC3C7;
   background-color: #00587A;
-  margin-left: 0;
   float: left;
-  padding: 25px;
   position: fixed;
 }
 
 #content{
-  width: auto;
   height: 100%;
-  margin-left: 200px;
+  padding-top: 15px;
+  padding-left: 150px;
 
   color: #FFFFFF;
   background-color: #282830;
-  padding: 50px;
+}
+
+#content *{
+  width: 500px;
+  min-width: 500px;
 }
